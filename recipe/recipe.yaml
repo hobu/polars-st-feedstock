@@ -1,6 +1,6 @@
 context:
   name: polars-st
-  version: "0.4.2"
+  version: "0.4.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/oreilles/polars-st/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 93211f1e19bb344f29a4b4304ed530ecb9d2ff24840ebb5d2ff693e301f93f52
+  sha256: 55333d59aee7e0212fa9611fee433fd0eebc5c39cc93123090434dc230eaee73
 
 build:
   number: 0
