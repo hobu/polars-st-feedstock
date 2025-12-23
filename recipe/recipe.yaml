@@ -39,6 +39,7 @@ requirements:
     - pip
   host:
     - maturin
+    - python
     - pip
   run:
     - python
