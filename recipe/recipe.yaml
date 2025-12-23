@@ -28,6 +28,7 @@ requirements:
     - if: build_platform != target_platform
       then:
         - python
+        - maturin
         - cross-python_${{ target_platform }}
     - cargo-auditable
     - puccinialin
