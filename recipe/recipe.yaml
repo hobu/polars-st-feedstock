@@ -35,6 +35,10 @@ requirements:
     - cargo-bundle-licenses
     - cmake
     - pip
+  host:
+    - maturin
+    - python
+    - pip
   run:
     - python
     - polars >1.34
